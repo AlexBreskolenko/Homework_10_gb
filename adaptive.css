@@ -1,0 +1,137 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 736px;
+  }
+  .main-section__img {
+    width: 386px;
+    height: 368px;
+  }
+  .section-one__block {
+    margin-top: 138px;
+    margin-left: 39px;
+    height: 62px;
+  }
+  .section-one__block h2 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .section-one__block h4 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .section-one__block span {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .main-section__two {
+    grid-template-columns: repeat(3, 232px);
+    grid-template-rows: 167px 116px;
+    gap: 19px;
+  }
+
+  .section-three__box-grid {
+    grid-template-columns: repeat(2, 360px);
+    grid-template-rows: repeat(3, 582px);
+    gap: 15px;
+  }
+
+  .section-four__boxes {
+    flex-direction: column;
+  }
+
+  .main-section-four {
+    padding-top: 48px;
+    padding-bottom: 64px;
+  }
+
+  .main-section__five {
+    height: 614px;
+  }
+
+  .section-five__contents {
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+
+/*Адаптив под мобильное устройство*/
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    max-width: 375px;
+  }
+
+  .section-one__block {
+    height: 66px;
+    margin: 148px auto;
+  }
+
+  .container {
+    width: 343px;
+  }
+  img[alt="icon-user"],
+  img[alt="icon-basket"],
+  .main-section__img {
+    display: none;
+  }
+
+  .section-one__block h2 {
+    font-weight: 900;
+    font-size: 38px;
+  }
+  .section-one__block h4 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .section-one__block span {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .main-section__two {
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d";
+    grid-template-columns: 343px;
+    grid-template-rows: 247px 247px 247px 111px;
+    row-gap: 32px;
+  }
+  .section-three__box-grid {
+    grid-template-columns: 343px;
+    grid-template-rows: repeat(6, 580px);
+    row-gap: 16px;
+  }
+
+  .section-three__box-grid img {
+    width: 343px;
+  }
+
+  .header-section__box-icon_two {
+    gap: 0;
+  }
+
+  .section-four__boxes {
+    flex-direction: column;
+  }
+
+  .main-section-four {
+    padding: 48px 13px 81px 14px;
+  }
+
+  .main-section__five {
+    height: 550px;
+  }
+  .section-five__contents {
+    flex-direction: column;
+    gap: 59px;
+  }
+
+  .section-footer {
+    flex-direction: column-reverse;
+    gap: 40px;
+    padding-top: 43px;
+    padding-bottom: 9px;
+  }
+}
