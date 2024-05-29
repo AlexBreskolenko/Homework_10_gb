@@ -122,7 +122,7 @@ img {
 
 .section-two__box-one {
   grid-area: a;
-  background-image: url(./image/for-women.png);
+  background-image: url(./image/for-women.webp);
   background-size: contain;
   display: flex;
   flex-direction: column;
@@ -131,7 +131,7 @@ img {
 }
 .section-two__box-two {
   grid-area: b;
-  background-image: url(./image/for-men.png);
+  background-image: url(./image/for-men.webp);
   background-size: contain;
   display: flex;
   flex-direction: column;
@@ -141,7 +141,7 @@ img {
 
 .section-two__box-three {
   grid-area: c;
-  background-image: url(./image/for-kids.png);
+  background-image: url(./image/for-kids.webp);
   background-size: contain;
   display: flex;
   flex-direction: column;
@@ -151,7 +151,7 @@ img {
 
 .section-two__box-four {
   grid-area: d;
-  background-image: url(./image/accesories.png);
+  background-image: url(./image/accesories.webp);
   background-size: contain;
   display: flex;
   flex-direction: column;
@@ -178,7 +178,7 @@ img {
   font-weight: 400;
   font-size: 30px;
   color: #222;
-  font-family: "Lato-Regular";
+  font-family: "Lato-Regulawebp
 }
 
 .section-three__text {
