@@ -80,6 +80,7 @@ img {
 .main-section__one {
   display: flex;
   background-color: #f1e4e6;
+  position: relative;
 }
 
 .section-one__block {
@@ -437,3 +438,45 @@ img {
   transition: fill 0.3s;
   fill: white;
 }
+
+/*Всплывающее окно*/
+.pop-up__menu{
+  width: 232px;
+  height: 634px;
+  background-color: #ffffff;
+  padding: 32px 99px 32px 32px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  .pop-up__menu a{
+    text-decoration: none;
+    font-family: "Lato-Regular";
+    font-weight: 400;
+    font-size: 14px;
+    color: #6f6e6e;
+  }
+  .pop-up__menu li{
+    list-style: none;
+  }
+
+
+  .pop-up__menu h5{
+    font-family: "Lato-Regular";
+    font-weight: 400;
+    font-size: 14px;
+    color: #f16d7f;
+  }
+
+  .pop-up__menu h3{
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    font-family: "Lato-Bold";
+    margin-bottom: 24px;
+  }
