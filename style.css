@@ -281,7 +281,7 @@ img {
 }
 
 .main-section__five {
-  background-image: url(./image/section-five-background.png);
+  background-image: url(./image/section-five-background.webp);
   background-size: cover;
   height: 448px;
   display: flex;
